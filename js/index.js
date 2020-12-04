@@ -291,6 +291,13 @@ var x4= myFunction(5, 6);
 
     console.log(config);
 
+    //Object.assign()
+
+    let person = { name : 'Jack', age: 18, sex: 'male'};
+
+    let student = { name: 'Bob', age: 20, xp: '2'};
+
+    let newStudent = Object.assign({}, person, student);
 
 
 
